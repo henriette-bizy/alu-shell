@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script tells a story based on /etc/passwd content
+# Read the content of /etc/passwd line by line
 
 while IFS=: read -r username password userid groupid info homedir shell
 do
